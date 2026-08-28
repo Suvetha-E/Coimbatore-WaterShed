@@ -1,0 +1,33 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Databases & local state
+*.sqlite3
+*.db
+
+# Large GIS Datasets (>100MB GitHub limit)
+datas/wb_tn_shp/
+*.shp
+*.dbf
+*.shx
+*.prj
+*.tif
+*.tiff
+*.zip
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
